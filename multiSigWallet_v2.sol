@@ -2,7 +2,7 @@ pragma solidity 0.7.5;
     //allows us to return a struct from functions
 pragma abicoder v2;
 
-contract V02_Multi_Sig_Wallet {
+contract Multi_Sig_Wallet_v2 {
         
         //Variable to hold contract creator and number of required votes
     address [] private owners;
